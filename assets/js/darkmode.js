@@ -33,6 +33,6 @@ if (getCookie('darkmode') == '') {
 } else if (getCookie('darkmode') == 'true') {
     var darkmodeStylesheet = document.createElement('link');
     darkmodeStylesheet['rel'] = 'stylesheet';
-    darkmodeStylesheet['href'] = 'https://cdn.luzea.ovh/google-drive-index-worker/assets/css/darkmode.css';
+    darkmodeStylesheet['href'] = 'https://raw.githubusercontent.com/jinoo2005609/google-drive-index-worker/master/assets/css/darkmode.css';
     document.head.appendChild(darkmodeStylesheet);
 }
