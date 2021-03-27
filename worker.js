@@ -13,7 +13,7 @@ self.props = {
     lite: true, // do not change this to false
 
     description: 'Google Drive Index',
-    assets_url: 'https://raw.githubusercontent.com/jinoo2005609/google-drive-index-worker/master/assets',
+    assets_url: 'https://cdn.jsdelivr.net/gh/jinoo2005609/google-drive-index-worker@master',
     discord_invite: ''
 };
 (function () {
