@@ -13,7 +13,7 @@ self.props = {
     lite: true, // do not change this to false
 
     description: 'Google Drive Index',
-    assets_url: 'https://cdn.luzea.ovh/google-drive-index-worker/assets',
+    assets_url: 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets',
     discord_invite: ''
 };
 (function () {
