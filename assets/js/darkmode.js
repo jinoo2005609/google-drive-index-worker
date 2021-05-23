@@ -33,6 +33,6 @@ if (getCookie('darkmode') == '') {
 } else if (getCookie('darkmode') == 'true') {
     var darkmodeStylesheet = document.createElement('link');
     darkmodeStylesheet['rel'] = 'stylesheet';
-    darkmodeStylesheet['href'] = 'https://https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets/css/darkmode.css';
+    darkmodeStylesheet['href'] = 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets/css/darkmode.css';
     document.head.appendChild(darkmodeStylesheet);
 }
