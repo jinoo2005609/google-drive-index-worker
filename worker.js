@@ -1,3 +1,5 @@
+sa_array = []; // put your service accounts in this array in json format separated by ,  
+const random = Math.floor(Math.random() * sa_array.length);
 self.props = {
     title: 'Google Drive Index',
     default_root_id: 'root',
@@ -5,7 +7,7 @@ self.props = {
     client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
     refresh_token: '',
     service_account: false,
-    service_account_json: {},
+    service_account_json: sa_array[random],
     auth: false,
     user: '',
     pass: '',
