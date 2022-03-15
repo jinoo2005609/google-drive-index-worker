@@ -2,7 +2,7 @@ function toggleDarkmode() {
     if (getCookie('darkmode') == 'false') {
         darkmodeStylesheet = document.createElement('link');
         darkmodeStylesheet['rel'] = 'stylesheet';
-        darkmodeStylesheet['href'] = 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets/css/darkmode.css';
+        darkmodeStylesheet['href'] = 'https://cdn.jsdelivr.net/gh/jinoo2005609/google-drive-index-worker@main/assets/css/darkmode.css';
         document.head.appendChild(darkmodeStylesheet);
         setCookie('darkmode', 'true');
     } else if (getCookie('darkmode') == "true") {
@@ -20,11 +20,11 @@ function toggleDarkmode() {
 
 function updateDarkmodeButtonInnerHTML() {
     if (getCookie('darkmode') == 'false') {
-        document.getElementById('darkmode-button1').innerHTML = '<i class="eye icon"></i>Dark mode';
-        document.getElementById('darkmode-button2').innerHTML = '<i class="eye icon"></i>Dark mode';
+        document.getElementById('darkmode-button1').innerHTML = '<i class="eye icon"></i>다크 모드';
+        document.getElementById('darkmode-button2').innerHTML = '<i class="eye icon"></i>다크 모드';
     } else {
-        document.getElementById('darkmode-button1').innerHTML = '<i class="eye slash icon"></i>Light mode';
-        document.getElementById('darkmode-button2').innerHTML = '<i class="eye slash icon"></i>Light mode';
+        document.getElementById('darkmode-button1').innerHTML = '<i class="eye slash icon"></i>라이트 모드';
+        document.getElementById('darkmode-button2').innerHTML = '<i class="eye slash icon"></i>라이트 모드';
     }
 }
 
@@ -33,6 +33,6 @@ if (getCookie('darkmode') == '') {
 } else if (getCookie('darkmode') == 'true') {
     var darkmodeStylesheet = document.createElement('link');
     darkmodeStylesheet['rel'] = 'stylesheet';
-    darkmodeStylesheet['href'] = 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets/css/darkmode.css';
+    darkmodeStylesheet['href'] = 'https://cdn.jsdelivr.net/gh/jinoo2005609/google-drive-index-worker@main/assets/css/darkmode.css';
     document.head.appendChild(darkmodeStylesheet);
 }

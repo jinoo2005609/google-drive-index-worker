@@ -1,1 +1,1 @@
-document.getElementById('footer').innerHTML = 'The script used by this site is licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.';
+document.getElementById('footer').innerHTML = '에셜룬의 YouTube Vanced 미러 서버 | <a href="https://esherloon.com/">esherloon.com</a>';

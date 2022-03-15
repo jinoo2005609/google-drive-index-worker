@@ -1,10 +1,10 @@
 sa_array = []; // put your service accounts in this array in json format separated by ,  
 const random = Math.floor(Math.random() * sa_array.length);
 self.props = {
-    title: 'Google Drive Index',
-    default_root_id: 'root',
-    client_id: '202264815644.apps.googleusercontent.com',
-    client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
+    title: 'YouTube Vanced Mirror',
+    default_root_id: '1HurQDgp_eMjQlPBZdIIzHv6Qzi5HmuLT',
+    client_id: '',
+    client_secret: '',
     refresh_token: '',
     service_account: false,
     service_account_json: sa_array[random],
@@ -14,8 +14,8 @@ self.props = {
     upload: false,
     lite: true, // do not change this to false
 
-    description: 'Google Drive Index',
-    assets_url: 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets',
+    description: '에셜룬의 YouTube Vanced 미러 서버',
+    assets_url: 'https://cdn.jsdelivr.net/gh/jinoo2005609/google-drive-index-worker@main/assets',
     discord_invite: ''
 };
 (function () {
@@ -2988,9 +2988,9 @@ self.props = {
                 <table class="ui striped table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Last Modified</th>
-                            <th>Size</th>
+                            <th>이름</th>
+                            <th>수정한 날짜</th>
+                            <th>크기</th>
                         </tr>
                     </thead>
                     <tbody>
