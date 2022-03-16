@@ -29,7 +29,7 @@ function updateDarkmodeButtonInnerHTML() {
 }
 
 if (getCookie('darkmode') == '') {
-    setCookie('darkmode', 'false');
+    setCookie('darkmode', 'true');
 } else if (getCookie('darkmode') == 'true') {
     var darkmodeStylesheet = document.createElement('link');
     darkmodeStylesheet['rel'] = 'stylesheet';
