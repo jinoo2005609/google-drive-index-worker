@@ -2742,7 +2742,7 @@ self.props = {
             const result = await gd.getMetaByPath(path, rootId);
 
             if (!result) {
-                return new Response('null', {
+                return new Response('null (404 NOT FOUND)', {
                     headers: {
                         'Content-Type': 'application/json'
                     },
