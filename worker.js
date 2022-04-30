@@ -2970,6 +2970,8 @@ self.props = {
         <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/purple/pace-theme-flash.css">
     </head>
     <body>
         <div id="sidebar" class="ui inverted left vertical menu sidebar"></div>
